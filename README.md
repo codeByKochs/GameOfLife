@@ -5,7 +5,7 @@ An implementation of the famous [game of life by Conway](https://en.wikipedia.or
 ## Description
 
 Conway's Game of Life implements a simulation of life in its simplest form. The game is based on a two-dimensional grid.
-A single cell can take on one of two possible states (alive or dead). Furthermore the game follows three basic rules:
+A single cell can take on one of two possible states (alive or dead). To determine the state of a cell the three following basic rules are used:
 
 ```
     1. Any live cell with two or three neighbors survives.
@@ -13,7 +13,7 @@ A single cell can take on one of two possible states (alive or dead). Furthermor
     3. All other live cells die in the next generation. Similarly, all other dead cells stay dead.
 ```
 
-In each time step of the simulation for every cell the above stated rules get checked an the state of the cells changes according. 
+In each time step of the simulation for every cell the above stated rules get checked an the state of the cells is changed accordingly. 
 
 ## Additional Information
 
